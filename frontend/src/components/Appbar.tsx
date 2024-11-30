@@ -6,7 +6,7 @@ export const Appbar = () => {
     return (
         <div className="border-b flex justify-between py-4 px-10 bg-slate-200">
             <Link to={'/blogs'} className="flex flex-col text-5xl justify-center cursor-pointer">
-                Orato
+                @blogsphere
             </Link>
             <div>
                 <Link to={`/publish`}>
