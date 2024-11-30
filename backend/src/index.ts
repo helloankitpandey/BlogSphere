@@ -13,7 +13,7 @@ const app = new Hono<{
         JWT_SECRET: string;
 	}
 }>();
-app.use(cors({ origin: "https://blogsphere-wk05.onrender.com", credentials: true }));
+app.use(cors({ origin: "https://blog-sphere-ten.vercel.app", credentials: true }));
 
 app.route("/api/v1/user", userRouter);
 app.route("/api/v1/blog", blogRouter);
