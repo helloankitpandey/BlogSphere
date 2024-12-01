@@ -5,7 +5,7 @@ import { Avatar } from "./BlogCard"
 export const Appbar = () => {
     return (
         <div className="border-b flex justify-between py-4 px-10 bg-slate-200">
-            <Link to={'/blogs'} className="flex flex-col  sm:text-3xl md:text-4xl lg:text-5xl font-bold  justify-center cursor-pointer text-indigo-600">
+            <Link to={'/blogs'} className="flex flex-col  sm:text-3xl text-5xl font-bold  justify-center cursor-pointer text-indigo-600">
                 @blogsphere
             </Link>
             <div>
